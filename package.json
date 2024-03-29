@@ -1,0 +1,16 @@
+{
+  "name": "exam-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm -r --filter=@exam/* run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/server",
+    "packages/client"
+  ]
+}
